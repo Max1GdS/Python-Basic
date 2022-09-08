@@ -1,0 +1,12 @@
+import turtle
+turtle.setup(640, 480, 0, 0)
+vantana = turtle.getscreen()
+tortuga = turtle.Turtle()
+tortuga.forward(100)
+tortuga.backward(200)
+tortuga.right(45)
+tortuga.fd(50)
+tortuga.circle(40)
+tortuga.goto(50,100)
+turtle.mainloop()
+input()
